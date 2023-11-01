@@ -1,7 +1,7 @@
 import { React, useState, useEffect } from 'react'
 import axios from 'axios'
-
-export const PostcCards = () => {
+import  "../PostCards/PostCards.css";
+ const PostCards = () => {
   const [data, setData] = useState([])
 
   const formatDate = (publishedAt) => {
@@ -26,7 +26,7 @@ export const PostcCards = () => {
       )
       .then((response) => {
         console.log(response.data.articles)
-        setData(response.data.articles)
+        setData(response.data.articles.slice(0, 5))
       })
       .catch((error) => {
         throw new Error(error)
@@ -34,7 +34,7 @@ export const PostcCards = () => {
   }, [])
 
   return (
-    <div className='postcards-container'>
+    <div className='postcards'>
       {data?.map(
         (data) =>
           data.author !== 'wsj' && (
