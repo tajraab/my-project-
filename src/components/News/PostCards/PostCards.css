@@ -6,15 +6,16 @@
   width: 98vw;
   height: 50vh;
   align-items: center;
-  background-color:gray;
-  border-radius: 5px;
-  border: 2px black solid;
+  background-color:whitesmoke;
+  /* border-radius: 5px;
+  border: 2px black solid; */
   color: whitesmoke;
   font-size: 17px;
   gap:25px;
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   margin: 5px;
   padding: 2px;
+
   
 }
 .postcard{
@@ -24,4 +25,9 @@
     align-items: center;
     flex-direction:column;
     justify-content:center;
+    color: black;
+    border-radius: 3px;
+    border: 2px black solid;
+    background-color: gray;
+    
 }

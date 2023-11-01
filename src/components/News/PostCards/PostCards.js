@@ -40,7 +40,8 @@ import  "../PostCards/PostCards.css";
           data.author !== 'wsj' && (
             <div className='postcard' key={data.id}>
               <h3>{data.author}</h3>
-              <h4>{data.content.replace(/\[\+\d+ chars\]/, 'Read more')}</h4>
+              <h4>{data.content}</h4>
+              <img src={data.urlToImage}/>
             </div>
           )
       )}
