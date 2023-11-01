@@ -3,7 +3,7 @@
   /* background-color: yellow; */
   justify-content: center;
   flex-direction: row;
-  width: 100vw;
+  width: 98vw;
   height: 50vh;
   align-items: center;
   background-color:gray;
@@ -11,7 +11,11 @@
   border: 2px black solid;
   color: whitesmoke;
   font-size: 17px;
-  gap:30px;
+  gap:25px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin: 5px;
+  padding: 2px;
+  
 }
 .postcard{
     /* background-color: aqua; */
