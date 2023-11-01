@@ -1,8 +1,9 @@
 import { React, useState, useEffect } from 'react'
 import axios from 'axios'
 
-export const Postcard = () => {
+export const PostcCards = () => {
   const [data, setData] = useState([])
+
   const formatDate = (publishedAt) => {
     const options = {
       year: 'numeric',
@@ -47,4 +48,4 @@ export const Postcard = () => {
   )
 }
 
-export default Postcard;
+export default PostCards
