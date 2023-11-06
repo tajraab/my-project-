@@ -13,6 +13,7 @@ function App() {
       <News />
     </div>
   );
+  //text field
 }
 
 export default App;

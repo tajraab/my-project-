@@ -4,7 +4,7 @@
   justify-content: center;
   flex-direction: row;
   width: 98vw;
-  height: 50vh;
+  height: 80vh;
   align-items: center;
   background-color:whitesmoke;
   /* border-radius: 5px;
@@ -21,7 +21,7 @@
 .postcard{
     /* background-color: aqua; */
     width: 50vw;
-    height: 40vh;
+    height: 70vh;
     align-items: center;
     flex-direction:column;
     justify-content:center;
@@ -29,5 +29,14 @@
     border-radius: 3px;
     border: 2px black solid;
     background-color: gray;
-    
+}
+
+.postcard img {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    padding: 4px;
+    align-items: center;
 }
